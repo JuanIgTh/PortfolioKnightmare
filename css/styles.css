@@ -1,0 +1,552 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/img/fondo\ 2.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/*//////////////////////// HEADER ////////////////////////*/
+
+header{
+    background-color: #0a0a10;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 10vh;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 1);
+    position: sticky;
+    z-index: 1;
+    top:0%;
+}
+
+.main-logo{
+    width: 90px;
+    height: 90px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    background-color: #0a0a10;
+    font-size: 20px;
+  
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+}
+
+.links ul a{
+    display: flex;
+    color: #47486e;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.links ul a:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s; 
+
+}
+
+a{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a0a10;
+    border-radius: 20px;
+}
+
+i{
+    color: #47486e;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s; 
+}
+
+/*//////////////////////// MAIN ////////////////////////*/
+
+main{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.main-tarjeta{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #0a0a10;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.logoclean{
+    width: 500px;
+    height: 500px;
+}
+
+.descripcion{
+    color: #47486e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    padding-right: 20px;
+    
+}
+
+.descripcion div{
+    align-items: center;
+
+}
+
+h1{
+
+    text-align: center;
+}
+
+
+
+.logos-paginas{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+}
+
+.logos-paginas img{
+    width: 100px;
+    height: 100px;
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.logos-paginas img:hover{
+
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition-duration: 0.3s; 
+    
+}
+
+/*//////////////////////// MAIN TARGETAS ////////////////////////*/
+
+.tarjetita{
+
+    height: 400px;
+    width: 350px;
+    background-color:#0a0a10;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.tarjetita:hover{
+    transform: scale(1.05);
+    transition-duration: 1s; 
+}
+
+.tarjetita i{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}   
+
+.tarjetita i:hover{
+   transform: scale(1);
+}  
+
+.preciocomprar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.container h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:#47486e;
+    padding-bottom: 25px;
+}
+
+.container p{
+    font-size: 20px;
+    color:#47486e;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+.add{
+    background-color:#47486e;
+    border-radius: 100%;
+    color: #0a0a10;
+    padding: 8px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #47486e;
+}
+
+
+
+
+.lista-tarjetitas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-content:center;  
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+
+/*//////////////////////// FOOTER ////////////////////////*/
+
+footer{
+    padding: 20px;
+    background-color: #0a0a10;
+    color: #47486e;   
+    text-align: center;
+    
+}
+
+.tarjeta-contacto{
+    background-color: #47486e;
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.tarjeta-contacto p{
+    color: #0a0a10;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.tarjeta-contacto button{
+    background-color:#0a0a10;
+    color:#47486e;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #0a0a10;
+    
+}
+
+.tarjeta-contacto button:hover{
+    transform: scale(1.05);
+    transition-duration: 1s; 
+}
+
+.final{
+    padding: 20px 0;
+}
+
+#patreon{
+    color:#0a0a10;
+    background-color:#992925;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.copyright{
+    font-size: 15px;
+
+}
+
+
+
+/*//////////////////////// VERSION MOBILE ////////////////////////*/
+
+
+@media (max-width: 576px) {
+    
+ header{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+ }
+
+ main{
+    padding-top: 40px;
+ }
+
+ .links{
+    font-size: 15px;
+    border-radius: 10px;
+ }
+ 
+ .super-logo{
+    display: none;
+ }
+
+ .main-tarjeta{
+    background-image: url(/img/Logocleanbg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+ }
+
+ .logos-paginas{
+    gap: 5px;
+    padding-bottom: 10px;
+}
+
+ .logos-paginas img{
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+.lista-tarjetitas{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content:center;  
+
+}
+
+.tarjetita{
+    width: 290px;
+
+}
+
+.formulario{
+    transform: scale(0.6);
+
+}
+
+.main-tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_form{  
+    padding-top: 0;
+    padding-bottom: 0;  
+    padding-left: 0; 
+ 
+ }
+
+ #ytgit{
+    display: none;
+ }
+
+ 
+
+
+}
+
+/*//////////////////////// TABLET ////////////////////////*/
+
+@media (max-width: 992px) {
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+     }
+     
+     .super-logo{
+        display: none;
+     }
+    
+     .main-tarjeta{
+        background-image: url(/img/Logocleanbg.png);
+        background-size: 30vh 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+     }
+   
+     .logos-paginas{
+        
+        padding-bottom: 10px;
+    }
+
+    .lista-tarjetitas{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+
+    .tarjetita{
+        width: 290px;
+    
+    }
+    
+
+
+   
+   
+}
+
+/*//////////////////////// PANTALLA MEDIANA ////////////////////////*/
+
+@media (max-width: 1575px) {
+    
+     
+    main{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+   
+   
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////// PAGINA CONTACTO   //////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.contact_form{  
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    padding-left: 30px; 
+ 
+ }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #47486e; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #47486e; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+ form button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #47486e; 
+    border-color: #47486e; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #0a0a10; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+  }
+  
+
+  
+  
+  p{
+    font-size: 14px; 
+    color: #47486e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  

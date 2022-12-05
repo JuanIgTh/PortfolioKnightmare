@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/img/fondo\ 2.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+table {
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+table tr td {
+  border: 0;
+  padding: 0px;
+}
+.message {
+  text-align: center;
+  background: rgb(10,10,16);
+background: linear-gradient(0deg, rgba(10,10,16,1) 0%, rgba(71,72,110,1) 70%);
+  color: #0a0a10;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+h3{
+    color: #47486e;
+    padding: 0px 0 0px 20px;
+    font-size: 22px;
+    margin:0;
+}
+.conditions {
+  padding: 20px;
+  font-size: 11px;
+  background-color: #0a0a10;
+  text-align: justify;
+  line-height: 20px;
+  color: #47486e;
+}
+
+.confirm {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+.confirm div img{
+    width: 32px;
+    margin-top:20px;
+}
+
+i{
+  color: #47486e;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button{
+  background-color:#47486e;
+  color:#0a0a10;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #0a0a10;
+  
+}
