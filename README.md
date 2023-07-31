@@ -1,5 +1,5 @@
-Proyecto simple para presentar mi marca y desarrollar habilidades de diseño.
+Simple proyect to show my brand and develop my design skills.
 
-Alojado en Netlify https://jolly-valkyrie-486e96.netlify.app/
+Deployed on Netlify https://jolly-valkyrie-486e96.netlify.app/
 
-Hecho con HTML+CSS puro, sin frameworks ni templates.
+Made with pure HTML+CSS, no frameworks or templates.
